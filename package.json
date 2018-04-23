@@ -1,0 +1,31 @@
+{
+  "name": "guitarics-verse-parser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "wspecs/guitarics-verse-parser",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "mocha ./dist/test/*.js"
+  },
+  "keywords": [
+    "chord",
+    "parser",
+    "verse",
+    "guitarics"
+  ],
+  "author": {
+    "name": "Wendly Saintil",
+    "email": "wendlysaintil@gmail.com",
+    "url": "https://twitter.com/wendlysaintil"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "guitarics-chordify": "^0.2.1",
+    "mocha": "^5.1.1"
+  }
+}
