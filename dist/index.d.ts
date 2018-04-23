@@ -1,2 +1,2 @@
-import { VerseParser } from './lib/verse-parser';
+import { VerseParser } from './lib/guitarics-verse-parser';
 export { VerseParser };

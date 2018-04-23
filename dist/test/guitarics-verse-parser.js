@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var verse_parser_1 = require("../lib/verse-parser");
+var guitarics_verse_parser_1 = require("../lib/guitarics-verse-parser");
 var chai_1 = require("chai");
 describe('verse parser', function () {
     var verse;
     var text = 'C   Dm   A\nA new goes Chord, A new song';
     beforeEach(function () {
-        verse = new verse_parser_1.VerseParser(text);
+        verse = new guitarics_verse_parser_1.VerseParser(text);
     });
     it('initializes', function () {
         chai_1.expect(verse.getText()).to.equal(text);
